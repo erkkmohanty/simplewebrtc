@@ -2,7 +2,7 @@
   "name": "@andyet/simplewebrtc-demo-app",
   "version": "1.0.0",
   "description": "Sample application using SimpleWebRTC",
-  "main": "src/index.js",
+  "main": "index.js",
   "dependencies": {
     "@andyet/simplewebrtc": "^1.0.2",
     "babel-loader": "^7.1.4",
@@ -28,7 +28,7 @@
     "babel-preset-stage-0": "^6.24.1"
   },
   "scripts": {
-    "start": "parcel --https src/index.html"
+    "start": "parcel --https index.html"
   },
   "license": "MIT"
 }
